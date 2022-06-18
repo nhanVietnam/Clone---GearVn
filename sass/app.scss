@@ -1,0 +1,20 @@
+@import "abstracts/_mixin";
+
+@import "vendors/_bootstrap";
+
+@import "base/_reset";
+@import "base/_typography";
+@import "base/_variables";
+@import "base/_breakpoints";
+@import "base/_base";
+
+//component
+@import "components/_header";
+@import "components/_banner";
+@import "components/_brands";
+@import "components/_flashsale";
+@import "components/_pc_sale";
+@import "components/_screen";
+@import "components/_footer";
+
+@import "pages/_home";

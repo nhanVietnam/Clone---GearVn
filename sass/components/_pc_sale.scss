@@ -1,0 +1,82 @@
+.pc-sale {
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    &-header {
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+    }
+    &-link {
+        font-size: 14px;
+        margin-right: 16px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .s4 {
+        position: relative;
+        overflow: hidden;
+        .swiper-slide {
+            border-top: 1px solid #ededed;
+            border-right: 1px solid #ededed;
+            padding: 8px;
+            a {
+                img {
+                    min-height: 190px;
+                    transition: all 0.4s;
+                    padding: 16px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+                &:hover {
+                    img {
+                        transform: translateY(-10px);
+                    }
+                    h4 {
+                        color: blue;
+                    }
+                }
+                h4 {
+                    color: #181717;
+                    font-size: 14px;
+                    font-weight: 600;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    transition: all 0.4s;
+                }
+            }
+        }
+        p {
+            color: #d00008;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 32px 0;
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+            width: 40px;
+            height: 40px;
+            color: #9999;
+            border-radius: 100rem;
+            background-color: #ededed;
+        }
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            font-size: 25px;
+            font-weight: 900;
+        }
+    }
+}
